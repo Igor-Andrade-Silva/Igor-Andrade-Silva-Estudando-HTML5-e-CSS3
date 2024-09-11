@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        col.csexo, col.cidade {
+            background-color: yellow;
+        }
+        col.cprof {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <caption>Cadastro</caption>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+    </tr>
+    <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+    </tr>
+    <tr>
+        <td>Rogerio</td>
+        <td>M</td>
+        <td>20</td>
+        <td>Radioalista</td>
+    </tr>
+    <tr>
+        <td>Cleusa</td>
+        <td>F</td>
+        <td>50</td>
+        <td>Psicologa</td>
+    </tr>
+    <tr>
+        <td>Igor</td>
+        <td>F</td>
+        <td>24</td>
+        <td>Desenvolvedor</td>
+    </tr>
+    <tr>
+        <td>Rosa</td>
+        <td>F</td>
+        <td>18</td>
+        <td>Médica</td>
+    </tr>
+    <tr>
+        <td>Pedro</td>
+        <td>M</td>
+        <td>48</td>
+        <td>Professor</td>
+    </tr>
+</table>
+    
+</body>
+</html>
